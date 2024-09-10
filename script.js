@@ -19,7 +19,7 @@ const x = setInterval(function() {
     document.getElementById("seconds").innerHTML = seconds;
 
     /* // If the countdown is finished, display the birthday message */
-    if (distance < 0) {
+    if (distance < 0) {git 
         clearInterval(x);
         document.getElementById("countdown").style.display = "none";
         document.getElementById("title").style.display = "none";
